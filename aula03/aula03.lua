@@ -1,0 +1,8 @@
+print('Digite seu nome:')
+nome = io.read()
+print('Digite um valor:')
+v1 = io.read('*number')
+print('Digite outro valor:')
+v2 = io.read('*number')
+print(nome,'A soma de',v1,'com',v2,'e igual a',v1+v2)
+print(type(nome))
